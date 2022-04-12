@@ -3,7 +3,7 @@ using Sample.DataGenerator.BogusDataFaker;
 
 namespace Sample.DataGenerator
 {
-    public static class FakeDataMother
+    public static class MovieMother
     {
 
         /// <summary>

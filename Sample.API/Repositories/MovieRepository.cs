@@ -19,7 +19,7 @@ namespace Sample.API.Repositories
             //    JsonSerializer serializer = new JsonSerializer();
             //    Movie movie2 = (Movie)serializer.Deserialize(file, typeof(Movie));
             //}
-            return JsonConvert.DeserializeObject<List<Movie>>(System.IO.File.ReadAllText($@"{AppDomain.CurrentDomain.BaseDirectory}etc/data/movie.json"));
+            return JsonConvert.DeserializeObject<List<Movie>>(System.IO.File.ReadAllText($@"{AppDomain.CurrentDomain.BaseDirectory}etc/data/movie.json"))!;
         }
     }
 }

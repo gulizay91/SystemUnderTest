@@ -9,7 +9,7 @@ namespace Sample.Contract
 {
 
     using Newtonsoft.Json;
-    using static Sample.Infrastructure.JsonUtility;
+    using Sample.Infrastructure;
 
     public partial class Movie
     {
